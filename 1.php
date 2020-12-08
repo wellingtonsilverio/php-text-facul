@@ -18,7 +18,7 @@
                 } else {
                     echo 'par';
                 }
-                echo '"><div>';
+                echo '"> </div>';
             }
             echo '</div>';
         }
