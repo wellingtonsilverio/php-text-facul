@@ -13,7 +13,7 @@
             echo '<div class="coluna">';
             for($c = 1; $c <= 9; $c++) {
                 echo '<div class="celula ';
-                if (($c % 2) == 1) {
+                if ((($c + $l) % 2) == 1) {
                     echo 'impar';
                 } else {
                     echo 'par';
