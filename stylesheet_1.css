@@ -4,7 +4,7 @@
 }
 .coluna{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .celula {
     display: block;
