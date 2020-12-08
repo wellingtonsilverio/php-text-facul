@@ -1,3 +1,11 @@
+.container {
+    display: flex;
+    margin: auto;
+}
+.coluna{
+    display: flex;
+    flex-direction: row;
+}
 .celula {
     width: 30px;
     height: 30px;

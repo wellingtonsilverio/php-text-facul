@@ -8,20 +8,22 @@
 </head>
 <body>
 
-    <?php for($l = 1; $l <= 9; $l++) {
-        echo '<div>';
-        for($c = 1; $c <= 9; $c++) {
-            echo '<div class="celula ';
-            if (($c % 2) == 1) {
-                echo 'impar';
-            } else {
-                echo 'par';
+    <div class="container">
+        <?php for($l = 1; $l <= 9; $l++) {
+            echo '<div class="coluna">';
+            for($c = 1; $c <= 9; $c++) {
+                echo '<div class="celula ';
+                if (($c % 2) == 1) {
+                    echo 'impar';
+                } else {
+                    echo 'par';
+                }
+                echo '"><div>';
             }
-            echo '"><div>';
+            echo '</div>';
         }
-        echo '</div>';
-    }
-    ?>
+        ?>
+    </div>
     
 </body>
 </html>
